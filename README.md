@@ -65,7 +65,7 @@ To develop your understanding of the domain, you are advised to independently re
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Contact
-Created by [@justinhtn] and [@krilecy]
+Created by [@justinhtn](https://github.com/justinhtn) and [@krilecy](https://github.com/Krilecy)
 
 
 <!-- Optional -->
