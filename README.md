@@ -5,8 +5,9 @@ This work is part of module 1 of aforementioned course.
 
 ## Table of Contents
 * [General Info](#general-information)
-* [Technologies Used](#technologies-used)
+* [Approach](#Approach)
 * [Conclusions](#conclusions)
+* [Technologies Used](#technologies-used)
 * [Acknowledgements](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
@@ -50,17 +51,32 @@ To develop your understanding of the domain, you are advised to independently re
 ## Approach
 1. Import the data as a pandas data frame. (used from here on out)
 2. Clean the data:
-  - Remove empty columns
+  - Remove empty and non-informative columns
   - Transform values with units into numerics
+3. Plot select data against the loan status
+4. Draw conclusions with the business context
 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
+## Conclusions
 
-## Technologies Used
+We identified 5 driving variables for loan status/default rate:
+- Location
+- Purpose
+- Expertise Quality (Employment Length & Annual Income)
+- Bankruptcies
+- Term
+
+**Combining these into a quality score gives us a value that correlates more strongly with the loan status (0.18) than any other factor in the data.**
+
+
+## Technologies Used 
 - Python            3.8.12
 - Jupyter / IPython 8.4.0
 - Pandas            1.4.3
+
+Details in Requirements.txt
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
